@@ -1,6 +1,6 @@
 import React from "react";
-import logo from './zypher_logo.png';
-function SignUp() {
+import logo from '../../zypher_logo.png';
+function SignIn() {
   return (
     <div className="min-h-screen  text-gray-900 flex justify-center bg-purple-950">
       <div className="max-w-screen-xl m-0 sm:m-10 bg-gray-200 shadow sm:rounded-lg flex justify-center flex-1">
@@ -16,9 +16,9 @@ function SignUp() {
            
           </div>
           <div className="mt-6 flex flex-col items-center">
-            <h1 className="text-2xl xl:text-3xl font-extrabold">Sign up</h1>
+            <h1 className="text-2xl xl:text-3xl font-extrabold">Sign In</h1>
             <div className="w-full flex-1 mt-8">
-              <div className="flex flex-col items-center">
+              {/* <div className="flex flex-col items-center">
                 <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
                   <div className="bg-white p-2 rounded-full">
                     <svg className="w-4" viewBox="0 0 533.5 544.3">
@@ -41,9 +41,9 @@ function SignUp() {
                     </svg>
                   </div>
                   <span className="ml-4">Sign Up with Google</span>
-                </button>
+                </button> 
 
-                 {/* <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
+                  <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
                   <div className="bg-white p-1 rounded-full">
                     <svg className="w-6" viewBox="0 0 32 32">
                       <path
@@ -53,9 +53,9 @@ function SignUp() {
                     </svg>
                   </div>
                   <span className="ml-4">Sign Up with GitHub</span>
-                 </button>  */}
+                 </button> 
                  
-              </div>
+              </div> */}
 
               <div className="my-6 border-b text-center">
                 <div className="leading-none px-2 inline-block text-sm text-gray-600 tracking-wide font-medium bg-gray-200 transform translate-y-1/2">
@@ -122,4 +122,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default SignIn;
